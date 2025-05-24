@@ -14,7 +14,7 @@ module.exports = {
     // Title of your template (for documentation/display)
     title: 'Sanchit Wadehra Ultimate React Native Starter',
 
-    templateDir: './templateProject/template',
+    templateDir: './template',
   
     // Let's keep this dirsToRename. The local test will tell us if it works as expected
     // or if the CLI handles these path changes differently/implicitly.
