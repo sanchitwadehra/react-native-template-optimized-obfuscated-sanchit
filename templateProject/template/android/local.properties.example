@@ -1,0 +1,9 @@
+# For signing release builds (local only, do not commit to Git! below are examples for the given keystore generation command)
+MYAPP_UPLOAD_STORE_PASSWORD=28122003
+MYAPP_UPLOAD_KEY_PASSWORD=28122003
+MYAPP_UPLOAD_STORE_FILE=my-upload-key.keystore
+MYAPP_UPLOAD_KEY_ALIAS=setup_app_alias
+
+# Keystore Generation Command ran in android/app folder
+
+keytool -genkeypair -v -storepass 28122003 -keypass 28122003 -keystore my-upload-key.keystore -alias setup_app_alias -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Sanchit Wadehra, OU=Sanskrit Revival, O=DharmaTech, L=Chandigarh, S=Punjab, C=IN"

@@ -1,1 +1,0 @@
-# react-native-template-optimized-obfuscated-sanchit
