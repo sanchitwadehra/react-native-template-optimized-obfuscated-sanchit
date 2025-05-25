@@ -24,6 +24,7 @@ module.exports = {
       // We might also need to specify renaming the .xcodeproj folder if it's not implicit
       'ios/templateProject.xcodeproj': `ios/{{newProjectName}}.xcodeproj` 
     },
+    postInitScript: './post-init.sh',
     
     // If the CLI doesn't rename files like MainActivity.kt based on the project name,
     // you might need a postInitScript to handle such specific renames or a more detailed
